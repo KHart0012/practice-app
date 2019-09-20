@@ -1,6 +1,6 @@
 function calc() {
-    const total = parseFloat(document.querySelector("#total"))
-    const rate = parseFloat(document.querySelector("#rate"))
+    const total = parseFloat(document.querySelector("#total").value)
+    const rate = parseFloat(document.querySelector("#rate").value)
 
     const tip = total * (rate / 100)
     const tax = total * (0.055) // 0.055 = tax rate / 100
